@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#content-canvas {
+  position:absolute;
+  z-index:100;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#content-canvas div {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(157, 157, 157, 1);
+}
