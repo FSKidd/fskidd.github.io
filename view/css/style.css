@@ -9,12 +9,9 @@ body {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-  color: #fff;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #content-canvas {
@@ -30,12 +27,11 @@ body {
 #content-canvas div {
   background-color: rgba(0, 0, 0, 0);
   color: rgba(250, 250, 250, 1);
-  margin-top: auto;
   margin-bottom: auto;
 }
 
 #content-canvas div.head-text {
-  margin-top: 200px;
+  margin-top: 6%;
 }
 
 div h1 {
