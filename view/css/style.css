@@ -31,7 +31,7 @@ body {
 }
 
 #content-canvas div.head-text {
-  margin-top: 6%;
+  margin-top: 4%;
 }
 
 div h1 {
@@ -134,4 +134,61 @@ div h2 {
 .btn3d.btn-magick:active, .btn3d.btn-magick.active {
     box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
     background-color: #bb39d7;
+}
+
+/*    --------------------
+        blinking cursor
+      --------------------    */
+
+.blinking-cursor {
+  -webkit-animation: 1.5s blink step-end infinite;
+  -moz-animation: 1.5s blink step-end infinite;
+  -ms-animation: 1.5s blink step-end infinite;
+  -o-animation: 1.5s blink step-end infinite;
+  animation: 1.5s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
 }
