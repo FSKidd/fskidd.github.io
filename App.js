@@ -23,6 +23,10 @@
            templateUrl: 'view/about.html',
            controller: 'AboutCtrl'
       })
+      .when('/contact', {
+           templateUrl: 'view/contact.html',
+           controller: 'ContactCtrl'
+      })
       .otherwise({redirectTo : '/'});
   });
 
