@@ -2,8 +2,6 @@
 
   "use strict";
 
-  console.log("Hello1");
-
   var App = angular.module("App", [
     "App.controllers",
     "App.services",
