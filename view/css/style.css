@@ -9,13 +9,13 @@ body {
 }
 
 a {
-  color: #080;
+  color: rgba(255, 255, 255, 1);
 }
 
 a:hover,
 a:active,
 a:active:focus {
-  color: #050;
+  color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
 
