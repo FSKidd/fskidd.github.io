@@ -8,6 +8,17 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+a {
+  color: #080;
+}
+
+a:hover,
+a:active,
+a:active:focus {
+  color: #050;
+  text-decoration: none;
+}
+
 .navbar {
   margin-top: 20px;
   margin-right: 20px;
