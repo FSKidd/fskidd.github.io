@@ -50,6 +50,12 @@ div h2 {
   font-weight: 400;
 }
 
+.contactbutton {
+  width: 150px;
+  margin:0 auto;
+  text-align: center;
+}
+
 /*    --------------------
              btn3d
       --------------------    */
