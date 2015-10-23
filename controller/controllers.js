@@ -13,6 +13,12 @@
         $scope.titleread = $scope.titleread + c;
       }
     }
+
+    $scope.deletechar = function() {
+      if ($scope.titleread.length > 0) {
+        $scope.titleread = $scope.titleread.substring(0, $scope.titleread.length - 1);
+      }
+    }
   }]);
 
   App.controller("AboutCtrl", ["$scope", function ($scope){
