@@ -34,6 +34,12 @@ body {
   margin-top: 4%;
 }
 
+.keyrow {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
 div h1 {
   font-size: 80px;
   font-weight: 800;
