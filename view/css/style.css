@@ -50,6 +50,10 @@ div h2 {
   font-weight: 400;
 }
 
+div h2.contacttitle {
+  font-size: 65px;
+}
+
 .contactbutton {
   width: 150px;
   margin:0 auto;
