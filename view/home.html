@@ -3,7 +3,15 @@
   <button onclick="location.href = '#/contact';" type="button" class="btn3d btn btn-white btn-lg navbar-right">Contact <i class="fa fa-arrow-right"></i></button>
 </div>
 <div class="head-text text-center">
-  <h1> {{titleread}}<span class="blinking-cursor">|</span></h1><br>
+  <div id="console-window" class="text-left">
+    <p>
+      {{console_read[4]}}<br>
+      {{console_read[3]}}<br>
+      {{console_read[2]}}<br>
+      {{console_read[1]}}<br>
+      {{console_read[0]}}<span class="blinking-cursor">|</span>
+    </p>
+  </div>
   <div class="rowwrap">
     <button type="button" class="btn3d btn btn-white btn-lg invisible">Delete</button>
     <div class="keyrow">

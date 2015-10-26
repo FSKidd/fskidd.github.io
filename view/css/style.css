@@ -29,6 +29,26 @@ a:active:focus {
   margin-left: 20px;
 }
 
+#console-window {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: rgba(80, 80, 80, 0.5);;
+  border-width: thick;
+}
+
+#console-window p {
+  font-size: 28px;
+  margin: 0;
+}
+
 #content-canvas {
   position:absolute;
   z-index:100;
@@ -39,18 +59,14 @@ a:active:focus {
   margin: auto;
 }
 
-#content-canvas div {
+#content-canvas div:not(#console-window) {
   background-color: rgba(0, 0, 0, 0);
   color: rgba(250, 250, 250, 1);
   margin-bottom: auto;
 }
 
 #content-canvas div.head-text {
-  margin-top: 4%;
-}
-
-#content-canvas div.head-text {
-  margin-top: 3%;
+  margin-top: 0;
 }
 
 .keyrow {
