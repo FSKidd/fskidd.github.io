@@ -18,16 +18,31 @@
       };
     };
     $scope.shift_console = function() {
-      for (var i = $scope.console_read.length - 1; i > 0; i--) {
+      for (var i = $scope.console_read.length - 1; i > 1; i--) {
         $scope.console_read[i] = $scope.console_read[i-1];
       };
+      $scope.console_read[1] = "> " + $scope.console_read[0];
       $scope.console_read[0] = "";
     };
     $scope.enter = function() {
       if ($scope.console_read[0].length > 0) {
-        // TODO
+        var command = $scope.console_read[0];
         $scope.shift_console();
+        // TODO -
+        if (command === "help"){
+          $scope.insert_line("Recognized commands:");
+          $scope.insert_line("help");
+        }
+        else {
+          $scope.insert_line("Command not recognized!");
+        }
       };
+    };
+    $scope.insert_line = function(m) {
+      for (var i = $scope.console_read.length - 1; i > 1; i--) {
+          $scope.console_read[i] = $scope.console_read[i-1];
+      };
+      $scope.console_read[1] = m;
     };
   }]);
 
