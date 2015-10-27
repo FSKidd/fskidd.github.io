@@ -5,7 +5,7 @@
   var App = angular.module("App.controllers", []);
 
 
-  App.controller("HomeCtrl", ["$scope", function ($scope){
+  App.controller("HomeCtrl", ["$scope", "$window", function ($scope, $window){
     $scope.console_read = ["","Hello! Welcome to my site.","","",""];
     $scope.insertchar = function(c) {
       if ($scope.console_read[0].length < 16) {
@@ -31,10 +31,10 @@
         // TODO -
         if (command === "help"){
           $scope.insert_line("Recognized commands:");
-          $scope.insert_line("help");
+          $scope.insert_line("help, resume");
         }
         else if (command === "resume") {
-          
+          $window.open('http://skylerkidd.co/Resume2015.pdf', '_blank');
         }
         else {
           $scope.insert_line("Command not recognized!");
