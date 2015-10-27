@@ -11,7 +11,7 @@
     "ngResource"
   ]);
 
-  App.config(function ($routeProvider) {
+  App.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'view/home.html',
@@ -26,6 +26,8 @@
            controller: 'ContactCtrl'
       })
       .otherwise({redirectTo : '/'});
-  });
+
+    //$locationProvider.html5Mode(true); // Fix urls someday.
+  }]);
 
 }());

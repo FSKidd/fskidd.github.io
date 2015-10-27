@@ -33,6 +33,9 @@
           $scope.insert_line("Recognized commands:");
           $scope.insert_line("help");
         }
+        else if (command === "resume") {
+          
+        }
         else {
           $scope.insert_line("Command not recognized!");
         }
