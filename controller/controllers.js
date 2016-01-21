@@ -34,7 +34,7 @@
           $scope.insert_line("help, resume");
         }
         else if (command === "resume") {
-          $window.open('http://skylerkidd.co/Resume2015.pdf', '_blank');
+          $window.open('http://skylerkidd.co/resumes/Resume2016v1.pdf', '_blank');
         }
         else {
           $scope.insert_line("Command not recognized!");
