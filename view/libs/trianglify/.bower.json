@@ -18,14 +18,14 @@
     "bower_components",
     "test"
   ],
-  "version": "0.3.1",
-  "_release": "0.3.1",
+  "version": "0.4.0",
+  "_release": "0.4.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.1",
-    "commit": "e6d5143b9f2dbc8d9c8dee3d30d097a320b26d79"
+    "tag": "v0.4.0",
+    "commit": "e29cf4ba92098b2587fe0f5840d4cf92ed3bd30d"
   },
-  "_source": "git://github.com/qrohlf/trianglify.git",
+  "_source": "https://github.com/qrohlf/trianglify.git",
   "_target": "*",
   "_originalSource": "trianglify"
 }
